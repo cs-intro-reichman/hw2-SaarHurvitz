@@ -26,7 +26,7 @@ public class TimeCalc {
             hours = 0;
         }
         //Printing hours with leading zero if needed
-        if(hours < 12) {
+        if(hours < 10) {
 			System.out.print("0");
 		}
 
