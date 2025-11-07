@@ -24,13 +24,15 @@ public class Cheers {
                 System.out.print("a  ");
             }
             
-                System.out.println(s.charAt(i) + ": " + s.charAt(i) + "!");
+                System.out.println(Character.toUpperCase(s.charAt(i)) + ": " 
+                                 + Character.toUpperCase(s.charAt(i)) + "!");
             }
             
             System.out.println("What does that spell?");
 
             int num = Integer.parseInt(args[1]);
-            //prints the String given by the user for the amount of times given by the user
+            /*prints the String given by the user for the amount 
+            of times given by the user in upper case letters*/
             for(; num > 0; num--){
                 System.out.println(s.toUpperCase() + "!!!");
             }

@@ -33,7 +33,7 @@
             "request": "launch",
             "mainClass": "Cheers",
             "projectName": "hw2-SaarHurvitz_c2ec2384",
-            "args": "HI 10"
+            "args": "Mic 10"
         },
          {
             "type": "java",
