@@ -32,7 +32,7 @@ public class Cheers {
             int num = Integer.parseInt(args[1]);
             //prints the String given by the user for the amount of times given by the user
             for(; num > 0; num--){
-                System.out.println(s + "!");
+                System.out.println(s + "!!!");
             }
 
         }
