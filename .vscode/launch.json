@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CalcPi",
+            "request": "launch",
+            "mainClass": "CalcPi",
+            "projectName": "hw2-SaarHurvitz_c2ec2384"
+        },
+        {
+            "type": "java",
+            "name": "TimeCalc",
+            "request": "launch",
+            "mainClass": "TimeCalc",
+            "projectName": "hw2-SaarHurvitz_c2ec2384",
+            "args": "23:59 1"
+        },
+        {
+            "type": "java",
+            "name": "TestRandom",
+            "request": "launch",
+            "mainClass": "TestRandom",
+            "projectName": "hw2-SaarHurvitz_c2ec2384",
+            "args": "10"
+        },
+        {
+            "type": "java",
+            "name": "Cheers",
+            "request": "launch",
+            "mainClass": "Cheers",
+            "projectName": "hw2-SaarHurvitz_c2ec2384",
+            "args": "Mic 10"
+        },
+         {
+            "type": "java",
+            "name": "Collatz",
+            "request": "launch",
+            "mainClass": "Collatz",
+            "projectName": "hw2-SaarHurvitz_c2ec2384",
+            "args": "7 v"
+        }
+        
+    ]
+
+    }
