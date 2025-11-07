@@ -17,7 +17,7 @@ public class Cheers {
 
             /*If the string contains one of the following letters
             it will print "an". if not "a". */
-            if("AEFHILMNORSX".indexOf(s.charAt(i)) != -1){
+            if("AEFHILMNORSXaefhilmnorsx".indexOf(s.charAt(i)) != -1){
                System.out.print("an ");
             }
             else{
