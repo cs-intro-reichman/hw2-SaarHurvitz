@@ -17,7 +17,7 @@
             "request": "launch",
             "mainClass": "TimeCalc",
             "projectName": "hw2-SaarHurvitz_c2ec2384",
-            "args": "00:00 10045"
+            "args": "23:59 1"
         },
         {
             "type": "java",

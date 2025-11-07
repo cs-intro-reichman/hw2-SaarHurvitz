@@ -14,13 +14,17 @@ public class TimeCalc {
         hours = 0;
         /*after getting the minutes to less that what there is in a day
          calculating what hour it woud after adding the mnutes*/
-        while (combine > 60) {
+        while (combine >= 60) {
             hours++;
             combine = combine - 60;
         }
         //the number that is left would be the minutes in the hour
         minutes = combine;
 
+                //taking care of a specific edge case
+        if(hours  == 24){
+            hours = 0;
+        }
         //Printing hours with leading zero if needed
         if(hours < 12) {
 			System.out.print("0");
